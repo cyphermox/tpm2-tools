@@ -1,0 +1,10 @@
+#! /bin/sh
+
+printf "Running libtoolize ...\n"
+libtoolize --install
+printf "Running aclocal ...\n"
+aclocal
+printf "Running autoconf ...\n"
+autoconf
+printf "Running automake ...\n"
+automake --add-missing
