@@ -1,0 +1,15 @@
+Source: tpm2-tools
+Section: utils
+Priority: optional
+Maintainer: Mathieu Trudel-Lapierre <mathieu.tl@gmail.com>
+Build-Depends: debhelper (>= 9), dh-autoreconf, libtss2-dev
+Homepage: https://github.com/01org/tpm2.0-tools
+Standards-Version: 3.9.7
+
+Package: tpm2-tools
+Architecture: any
+Section: utils
+Depends: ${shlibs:Depends}, ${misc:Depends},
+Description: TPM 2.0 utilities
+ TPM2.0 Tools ...
+

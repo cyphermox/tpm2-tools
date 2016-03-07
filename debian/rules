@@ -1,0 +1,14 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --with autoreconf
+
+override_dh_autoreconf:
+	dh_autoreconf ./bootstrap
+
+override_dh_autoreconf_clean:
+	rm -f compile depcomp ltmain.sh config.sub missing config.guess \
+		install-sh m4/ltoptions.m4 m4/ltversion.m4 m4/libtool.m4 \
+		m4/ltsugar.m4 m4/lt\~obsolete.m4 config.log
+	dh_autoreconf_clean
+
