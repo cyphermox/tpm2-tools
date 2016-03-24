@@ -8,7 +8,6 @@ Standards-Version: 3.9.7
 
 Package: tpm2-tools
 Architecture: any
-Section: utils
 Depends: ${shlibs:Depends}, ${misc:Depends},
 Description: TPM 2.0 utilities
  This package contains a set of tools to use with TPM 2.0 chips,
