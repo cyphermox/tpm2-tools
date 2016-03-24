@@ -1,5 +1,5 @@
-tpm2-tools (1.0.0+20160226.64b3334-1) UNRELEASED; urgency=medium
+tpm2-tools (1.0.0+20160226.64b3334-0ubuntu1) xenial; urgency=medium
 
   * Initial release. (Closes: #815849)
 
- -- Mathieu Trudel-Lapierre <mathieu.tl@gmail.com>  Mon, 07 Mar 2016 09:24:30 -0500
+ -- Mathieu Trudel-Lapierre <mathieu-tl@ubuntu.com>  Fri, 25 Mar 2016 00:01:37 -0400
